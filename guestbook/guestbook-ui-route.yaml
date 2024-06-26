@@ -6,7 +6,8 @@ metadata:
   name: guestbook-ui
 spec:
   port:
-    targetPort: 80
+    # targetPort: 80
+    targetPort: 8080
   to:
     kind: Service
     name: guestbook-ui
